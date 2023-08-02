@@ -15,7 +15,7 @@ defineProps({
     </div>
     <div class="slogan">
         <h1>Basic Information</h1>
-        <p>Hello everyone, Welcome to FANGPLAY official website.<br>Now this site have available on now!</p>
+        <p>Hello everyone, Welcome to FANGPLAY official website.<br>Now this site have available now!</p>
     </div>
     
 </template>
