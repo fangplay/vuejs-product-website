@@ -52,6 +52,6 @@ import ProfileItem from './ProfileItem.vue'
         <h3>Multimedia Editor</h3>
         <p>Adobe Photoshop,Adobe Illustrator,Adobe Premire Pro,Adobe After Effects,Adobe Audition,VegasPro</p>
         <h3>General Skills</h3>
-        <p>Fast Learner,Quick Thinking,Combine Compatibilities,Critical Thinking,</p>
+        <p>Fast Learner,Quick Thinking,Combine Compatibilities,Critical Thinking,Multi-langauge communication,Analyst</p>
     </ProfileItem>
 </template>
