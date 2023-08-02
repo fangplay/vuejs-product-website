@@ -11,10 +11,8 @@ defineProps({
     <div class="letter">
         <h1 class="green">{{ msg }}</h1>
         <h2 class="blue">FANGPLAY Official Website</h2>
-        <h4 class="red">FANGPLAY Sirirak Sophakarn</h4>
     </div>
     <div class="starter">
-        <h1>Basic Information</h1>
         <p>Hello everyone, Welcome to FANGPLAY official website.<br>Now this site have available now!</p>
     </div>
     <div class="slogan">
@@ -22,6 +20,17 @@ defineProps({
       <p>"雖然我一個人，但並非總是孤單。"</p>
       <p>"私は一人ですが、すべての時間だけではありません。"</p>
       <p>"나는 혼자이지만 항상 혼자가 아닙니다."</p>
+    </div>
+    <div class="define">
+      <h4>Why set nickname is "FANGPLAY"?</h4>
+      <p>FANG is speaking in English at 2 phrase.<br>First speaking in fˈæŋ (f a1 ng)<br>Second speaking in F AE1 NG</p>
+      <p>Extra conclution : FANG has available in girl name and in old friends name.</p>
+    </div>
+    <div class="copyright" id="copyright">
+      &copy;
+      <script>
+        document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+      </script> Developed By FANGPLAY SIRIRAK<br> This site is developing on VueJS3.
     </div>
     
 </template>
@@ -49,6 +58,10 @@ h3 {
 
 .starter h1,h2,h3,h4,h5{
   font-size: 2.5rem;
+}
+
+.define h1,h2,h3,h4,h5{
+  font-size: 1.5rem;
 }
 
 @media (min-width: 1024px) {
