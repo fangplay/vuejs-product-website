@@ -13,6 +13,10 @@ defineProps({
         <h2 class="blue">FANGPLAY Official Website</h2>
         <h4 class="red">FANGPLAY Sirirak Sophakarn</h4>
     </div>
+    <div class="slogan">
+        <h1>Basic Information</h1>
+        <p>Hello everyone, Welcome to FANGPLAY official website.<br>Now this site have available on now!</p>
+    </div>
     
 </template>
 
