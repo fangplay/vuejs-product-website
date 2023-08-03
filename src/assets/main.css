@@ -12,12 +12,24 @@ a,
 .green {
   text-decoration: none;
   color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+  transition: 0.5s;
+}
+
+a,.red{
+  text-decoration: none;
+  color: red;
+  transition: 0.5s;
+}
+
+a,.blue{
+  text-decoration: none;
+  color: rgb(0, 89, 255);
+  transition: 0.5s;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: hsla(207, 100%, 37%, 0.2);
   }
 }
 
