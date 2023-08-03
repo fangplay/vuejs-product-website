@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "mdb-vue-ui-kit": "^4.0.0",
+    "vue": "^3.3.4",
+    "vue-material-design-icons": "^5.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

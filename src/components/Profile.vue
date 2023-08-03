@@ -11,6 +11,7 @@ defineProps({
     <div class="letter">
         <h1 class="green">{{ msg }}</h1>
         <h2 class="blue">FANGPLAY Official Website</h2>
+        <img src="./img/profile-2023.jpg" style="width:100%; border-radius: 50%;">
     </div>
     <div class="starter">
         <p>Hello everyone, Welcome to FANGPLAY official website.<br>Now this site have available now!</p>
@@ -27,12 +28,8 @@ defineProps({
       <p>Extra conclution : FANG has available in girl name and in old friends name.</p>
     </div>
     <div class="copyright" id="copyright">
-      &copy;
-      <script>
-        document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-      </script> Developed By FANGPLAY SIRIRAK<br> This site is developing on VueJS3.
-    </div>
-    
+      ©{{ new Date().getFullYear() }} Developed By FANGPLAY SIRIRAK<br> This site is developing on VueJS3.
+    </div> 
 </template>
 
 <style scoped>
