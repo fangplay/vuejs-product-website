@@ -1,6 +1,7 @@
 {
+  "homepage" : "https://fangplay.github.io/vuejs-web",
   "name": "fangplay-vue-page",
-  "version": "0.0.0",
+  "version": "7.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
