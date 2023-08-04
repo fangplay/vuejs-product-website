@@ -61,7 +61,7 @@ export default {
         <p>Fast Learner,Quick Thinking,Combine Compatibilities,Critical Thinking,Multi-langauge communication,Analyst,Teamwork Speaking,Problem-solving,Active listening,Leadership,Time management,Transferable</p>
     </ProfileItem>
     <ProfileItem>
-      <template #heading>Performance Projects</template>
+      <template #heading>Programming Performance</template>
       <h3>Completed Projects</h3>
       <p><a href="https://github.com/fangplay/laravel-8-webapp/" target="_blank">Laravel Diary Full Stack(Work on Laravel Version 8)</a></p>
       <p><a href="https://github.com/fangplay/nodejs-diary" target="_blank">NodeJS Diary Full Stack</a></p>
@@ -77,6 +77,12 @@ export default {
       <p>Kotlin Mobile App</p>
       <p>Go Web Application</p>
       <p>Flutter Mobile App</p>
+    </ProfileItem>
+    <ProfileItem>
+      <template #heading>Multimedia Performance</template>
+      <img src="./img/sample-4.jpg" style="width:100%;">
+      <img src="./img/sample-2.jpg" style="width:100%;">
+      <img src="./img/sample-3.png" style="width:100%;">
     </ProfileItem>
     <ProfileItem>
       <template #heading>Language Scale</template>
